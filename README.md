@@ -9,7 +9,7 @@ Sistema de automatización para procesos de e-commerce que gestiona órdenes, tr
 El sistema actual funciona con scripts independientes que automatizan procesos básicos. Falta integración entre módulos, manejo robusto de errores y características avanzadas. La arquitectura actual es funcional pero requiere refactorización para escalabilidad.
 
 <p align="center">
-  <img width="122" height="516" alt="Diagrama_de_Flujo_del_Proceso" src="https://github.com/user-attachments/assets/9984e120-3dd7-4d8c-bd08-310f1f8e76b6" />
+  <img width="329" height="517" alt="Diagrama_de_Flujo_del_Proceso" src="https://github.com/user-attachments/assets/2af9f5da-ca13-4d56-904b-afe772caa462" />
 </p>
 
 **Diagrama de secuencia** que muestra el flujo actual de ejecución.  
@@ -27,7 +27,7 @@ La estructura actual **funciona**, pero **carece de integración elegante**.
 ## **🔄 Flujo de Procesamiento**
 
 <p align="center">
-  <img width="103" height="431" alt="Diagrama_de_Estados_del_Sistema" src="https://github.com/user-attachments/assets/ff37a26e-f78a-41a1-81fe-09976241c96b" />
+  <img width="346" height="429" alt="Diagrama_de_Estados_del_Sistema" src="https://github.com/user-attachments/assets/3d7be886-8ccd-4611-97ea-f1e42e0b7042" />
 </p>
 
 Diagrama de estados que ilustra las **transiciones entre cada fase del proceso**.  
@@ -45,7 +45,7 @@ Seleccione la tienda y espere la ejecución automática. El sistema crea directo
 ## **📈 Proyecciones y Mejoras Futuras**
 
 <p align="center">
-   <img width="1742" height="1479" alt="Arquitectura_Target_Planeada" src="https://github.com/user-attachments/assets/b8343393-0177-415c-a2c9-3b4887e28d9d" />
+  <img width="456" height="590" alt="Arquitectura_Target_Planeada" src="https://github.com/user-attachments/assets/d7a595bd-85a7-4d4d-a1f7-0e44bb3d4ebd" />
 </p>
 
 Arquitectura objetivo que incluye API REST, orquestador central, microservicios por tienda, base de datos unificada y dashboard web. Representa la evolución desde scripts monolíticos hacia sistema distribuido.
@@ -69,20 +69,3 @@ Arquitectura objetivo que incluye API REST, orquestador central, microservicios 
 🔲 CI/CD Pipeline  
 🔲 Integración en la nube  
 🔲 Analítica avanzada  
-
-## **🤝 Contribución**
-
-Este proyecto **acepta contribuciones** para completar las funcionalidades faltantes.  
-Priorizamos *issues* relacionados con **estabilidad**, **documentación** y **pruebas**.  
-Siga los **estándares de código existentes** al realizar *pull requests*.
-
-## **📄 Licencia**
-
-Proyecto bajo licencia **MIT**.  
-Libre uso y modificación con atribución.  
-Se invita a compartir mejoras con la comunidad para fortalecer el ecosistema de automatización.
-
-⚠️ **NOTA:**  
-Este proyecto está en **desarrollo activo**.  
-Las funcionalidades pueden cambiar y algunas características planeadas **aún no están implementadas**.  
-Considere esta documentación como una **guía del estado actual y visión futura**.
